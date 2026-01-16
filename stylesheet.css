@@ -13,10 +13,6 @@ body {
   width: 512px;
 }
 
-.item p {
-  flex: 1;
-  line-height: 1.8;
-}
 .item.reverse {
   flex-direction: row-reverse;
 }
