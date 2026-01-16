@@ -4,26 +4,14 @@ body {
   font-family: 'Baumans', sans-serif;
 }
 .flex {
-  display: flex; /*横並び*/
+  display: flex;
 }
 .flex .image {
-  width: 640px; /*画像サイズ指定*/
   margin: 0;
   padding: 0;
   overflow: hidden;
   position: relative;
 }
-.flex .right {
-  margin: 0 0 0 20px;
-  padding: 0;
-}
-.flex .title {
-  margin: 0;
-  padding: 0;
-  font-weight: bold;
-  font-size: 18px;
-}
 .flex .text {
-  margin: 10px 0 0;
   padding: 0;
 }
