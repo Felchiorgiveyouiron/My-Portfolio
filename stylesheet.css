@@ -3,3 +3,10 @@ body {
   color: #fff;            /* 白文字 */
   font-family: 'Baumans', sans-serif;
 }
+h1 {
+  background-image: url("mokume34.png"); /* 木目画像 */
+  background-size: cover;             /* 領域いっぱいに表示 */
+  background-position: center;
+  color: white;
+  padding: 20px;
+}
