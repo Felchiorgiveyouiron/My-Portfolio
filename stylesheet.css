@@ -6,7 +6,7 @@ body {
 .item {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 40px;
   margin: 30px 0;
 }
 
