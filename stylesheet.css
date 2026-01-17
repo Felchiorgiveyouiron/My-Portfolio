@@ -22,3 +22,9 @@ body {
 .item.reverse {
   flex-direction: row-reverse;
 }
+
+.banner {
+  background-image: url();
+  background-position: left top;
+  background-repeat: no-repeat;
+}
