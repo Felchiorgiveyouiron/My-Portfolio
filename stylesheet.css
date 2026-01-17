@@ -7,12 +7,16 @@ body {
   display: flex;
   align-items: center;
   gap: 40px;
+  font-size: 2rem;
 }
 
 .item img {
   width: 512px;
   height: 512px;
   object-fit: cover;
+  padding: 8px;
+  background: #111;
+  border: 1px solid rgba(255,255,255,0.3);
 }
 
 .item.reverse {
