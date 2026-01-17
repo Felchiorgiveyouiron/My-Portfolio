@@ -19,6 +19,13 @@ body {
   border: 1px solid rgba(255,255,255,0.3);
 }
 
+.work img {
+  width: 600px;
+  padding:8px;
+  background: #111;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
 .item.reverse {
   flex-direction: row-reverse;
 }
