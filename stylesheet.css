@@ -16,7 +16,3 @@ body {
 .item.reverse {
   flex-direction: row-reverse;
 }
-.omake {
-  color: #AAA;
-  font-size: 0.65rem;
-}
