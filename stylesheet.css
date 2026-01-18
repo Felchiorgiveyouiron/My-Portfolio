@@ -45,19 +45,31 @@ body {
   gap: 40px;
 }
 
-.work title {
+.work .title {
   font-weight: bold;
   font-size: 18px;
 }
 
-.work right {
+.work .right {
   margin: 0 0 0 20px;
   padding: 0;
 }
 
-.work text {
+.work .text {
   margin: 10px 0 0;
   padding: 0;
+}
+
+@media (max-width: 768px) {
+  .work {
+    flex-direction: column;
+  }
+
+  .work img,
+  .work video {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 .title {
