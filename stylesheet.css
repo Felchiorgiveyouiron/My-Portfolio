@@ -17,7 +17,7 @@ body {
 }
 
 .item img {
-  width: 50%;
+  width: 512px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   padding: 8px;
@@ -70,6 +70,9 @@ body {
     width: 100%;
     max-width: 100%;
   }
+
+  .item img {
+    width: 50%;
 }
 
 .title {
