@@ -70,17 +70,6 @@ body {
     width: 100%;
     max-width: 100%;
   }
-  
-  .item,
-  .item.reverse {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
-
-  .item img {
-    width: 48%;
-  }
 }
 
 .title {
