@@ -63,6 +63,10 @@ body {
   padding: 0;
 }
 
+.title {
+  border: 5px solid red;
+}
+
 .item.reverse {
   flex-direction: row-reverse;
 }
