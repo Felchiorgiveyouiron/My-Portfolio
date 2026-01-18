@@ -17,7 +17,7 @@ body {
 }
 
 .item img {
-  width: 512%;
+  width: 512px;
   height: 512px;
   object-fit: cover;
   padding: 8px;
