@@ -20,14 +20,14 @@ body {
 }
 
 .work img {
-  width: 600px;
+  width: 750px;
   padding:8px;
   background: #111;
   border: 1px solid rgba(255,255,255,0.3);
 }
 
 .work video {
-  width: 650px;
+  width: 775px;
   padding:8px;
   background: #111;
   border: 1px solid rgba(255,255,255,0.3);
