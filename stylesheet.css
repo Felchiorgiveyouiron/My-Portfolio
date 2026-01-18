@@ -95,4 +95,5 @@ a {
 
   .item img {
     width: 300px;
+    flex-shrink: 0;
 }
