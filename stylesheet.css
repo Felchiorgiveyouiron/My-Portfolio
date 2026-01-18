@@ -60,21 +60,6 @@ body {
   padding: 0;
 }
 
-@media (max-width: 768px) {
-  .work {
-    flex-direction: column;
-  }
-
-  .work img,
-  .work video {
-    width: 100%;
-    max-width: 100%;
-  }
-
-  .item img {
-    width: 50%;
-}
-
 .title {
   border-bottom: 1px solid rgba(255,255,255,0.3);
   padding-bottom: 10px;
@@ -95,4 +80,19 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .work {
+    flex-direction: column;
+  }
+
+  .work img,
+  .work video {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .item img {
+    width: 50%;
 }
