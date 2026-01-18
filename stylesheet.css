@@ -35,9 +35,8 @@ body {
 
 .work {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 40px;
-  font-size: 2rem;
 }
 
 .item.reverse {
