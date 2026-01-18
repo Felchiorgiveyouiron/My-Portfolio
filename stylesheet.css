@@ -17,7 +17,7 @@ body {
 }
 
 .item img {
-  width: 512px;
+  width: 512%;
   height: 512px;
   object-fit: cover;
   padding: 8px;
@@ -70,12 +70,24 @@ body {
     width: 100%;
     max-width: 100%;
   }
+  
+  .item,
+  .item.reverse {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .item img {
+    width: 48%;
+  }
 }
 
 .title {
   border-bottom: 1px solid rgba(255,255,255,0.3);
   padding-bottom: 10px;
   margin-bottom: 30px;
+  font-size: 3em
 }
 
 .item.reverse {
